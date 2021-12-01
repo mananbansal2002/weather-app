@@ -1,0 +1,83 @@
+.detail
+{
+display:flex;
+}@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
+
+body{
+display :flex;
+
+justify-content:center;
+margin:0;
+font-family: 'Dosis', sans-serif;
+font-family: 'Comforter Brush', cursive;
+background-image:url("http://source.unsplash.com/collection/3178572,357786/1600x900");
+align-items:center;
+height:100vh;
+width:100vw;
+}
+
+.container{
+background:#000000d0;
+color:white;
+padding:2em;
+width:100%;
+max-width:400px;
+border-radius:25px;
+}
+
+.search{
+display:flex;
+justify-content:center;
+align-items:center;
+}
+.search button
+{
+border-radius:40%;
+border:none;
+height:3em;
+width:3em;
+margin:0.5em;
+background:#6c6c6c2b;
+color:white;
+}
+.search button:hover{
+background:#6c6c6c6b;
+cursor:pointer;
+}
+
+
+.sbar{
+background:#6c6c6c2b;
+padding:1em;
+border-radius:25px;
+width:50%;
+height:9px;
+color:white;
+outline:none;
+}
+.detail
+{
+display:flex;
+margin:10px;
+
+}
+.temp{
+font-size:20px;
+padding:10px;
+}
+
+.svg-icon {
+  width:1.8em;
+  height: 1em;
+}
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+  fill: white;
+}
+
+.svg-icon circle {
+  stroke: #4691f6;
+  stroke-width: 1;
+}
