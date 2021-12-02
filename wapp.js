@@ -1,7 +1,7 @@
 let weather ={
     "apikey":"285c037e2c52620f47e56f724ed4e967",
     fetchw: function(city){
-    fetch("http://api.openweathermap.org/data/2.5/weather?q="+city+"&appid=285c037e2c52620f47e56f724ed4e967")
+    fetch("https://api.openweathermap.org/data/2.5/weather?q="+city+"&appid=285c037e2c52620f47e56f724ed4e967")
     .then((response)=>response.json())
     .then((data)=>this.displayw(data));
 },
